@@ -1,0 +1,12 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "yourCollection",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "yourField", "order": "ASCENDING" },
+        { "fieldPath": "anotherField", "order": "DESCENDING" }
+      ]
+    }
+  ]
+}

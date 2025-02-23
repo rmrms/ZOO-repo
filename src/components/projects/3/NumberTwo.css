@@ -1,0 +1,24 @@
+.profile-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: scale(1.05);
+}
+
+.profile-img-container {
+  overflow: hidden;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.profile-img {
+  transition: transform 0.3s ease;
+}
+
+.profile-img-container:hover .profile-img {
+  transform: scale(1.1);
+}
